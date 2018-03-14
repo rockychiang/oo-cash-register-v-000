@@ -4,8 +4,8 @@ class CashRegister
     @total = 0
   end
   
-  def self.discount(discount)
-    discount
+  def self.discount
+    20
   end
   
 end
