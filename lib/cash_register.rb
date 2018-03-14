@@ -4,7 +4,7 @@ class CashRegister
     @total = 0
   end
   
-  def self.discount
+  def discount
     20
   end
   
