@@ -6,4 +6,6 @@ class CashRegister
     self.discount = discount
   end
 
+  
+
 end
