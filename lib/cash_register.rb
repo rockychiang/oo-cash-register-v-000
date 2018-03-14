@@ -28,6 +28,7 @@ class CashRegister
   end
 
   def void_last_transaction
+    @items = @last[1]
     @total = @last[0]
   end
 
