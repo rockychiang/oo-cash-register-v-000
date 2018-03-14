@@ -8,6 +8,8 @@ class CashRegister
   end
 
   def add_item(item, price, quantity=1)
+    @last = [@total, @items]
+    
     @total += price*quantity
     i = 0
     while i < quantity do 
