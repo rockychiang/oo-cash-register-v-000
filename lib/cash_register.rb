@@ -5,7 +5,7 @@ class CashRegister
   end
   
   def self.discount(discount)
-    
+    discount
   end
   
 end
